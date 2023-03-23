@@ -1,4 +1,4 @@
-# VNDB Thigh-highs
+# VNDB Thigh-highs（otome）
 本文参考VNDB，提供的[python http api](https://code.blicky.net/FoieGras/vndb-thigh-highs)
 提供了对otome game数据提取与处理的一些代码：
 主要文件为
