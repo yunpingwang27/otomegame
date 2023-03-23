@@ -1,4 +1,14 @@
 # VNDB Thigh-highs
+本文参考VNDB，提供的[python http api](https://code.blicky.net/FoieGras/vndb-thigh-highs)
+提供了对otome game数据提取与处理的一些代码：
+主要文件为
+getvnid.py(从api获取数据存入test.json)
+getotomevn.py（将获取的json调整为更容易调取的格式）
+readotome.py（读取出需要的json数据特征，转化为列表格式输出）
+
+get_tag_vn.py(读取出各乙游的tag并进行处理）
+
+如下为源文档readme文件：
 This module provides a VNDB client api implementation. It aims to provide some high level features to easily use VNDB api. It also includes some helper functions and classes to easily use database dumps.
 
 ## API Quick start
